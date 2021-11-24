@@ -51,7 +51,7 @@ public class DomainService<TEntity> : IDomainService<TEntity> where TEntity : En
         return await Task.FromResult(_repository.Search(filters, page, pagesize, orderBy));
     }
 
-    public async Task<TEntity> GetById(long id)
+    public async Task<TEntity?> GetById(long id)
     {
         return await Task.FromResult(_repository.GetById(id));
     }

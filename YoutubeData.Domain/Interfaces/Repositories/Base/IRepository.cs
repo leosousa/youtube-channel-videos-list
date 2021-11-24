@@ -7,8 +7,8 @@ public interface IRepository<TEntity> where TEntity : Entity
 {
     void Create(TEntity entity);
     void CreateAll(IEnumerable<TEntity> entities);
-    TEntity GetById(long id);
-    TEntity Get(Expression<Func<TEntity, bool>> filter);
+    TEntity? GetById(long id);
+    TEntity? Get(Expression<Func<TEntity, bool>> filter);
     IEnumerable<TEntity> List();
     IEnumerable<TEntity> Search(Expression<Func<TEntity, bool>> filters);
     IEnumerable<TEntity> Search(Expression<Func<TEntity, bool>> filters, Func<IQueryable<TEntity>, IOrderedQueryable<TEntity>>? orderBy = null);
