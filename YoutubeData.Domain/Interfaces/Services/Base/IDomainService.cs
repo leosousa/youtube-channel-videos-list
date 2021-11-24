@@ -11,9 +11,9 @@ public interface IDomainService<TEntity> where TEntity : Entity
     void CreateAll(List<TEntity> entities);
     Task<IEnumerable<TEntity>> List();
     Task<IEnumerable<TEntity>> Search(Expression<Func<TEntity, bool>> filters);
-    Task<IEnumerable<TEntity>> Search(Expression<Func<TEntity, bool>> filters, Func<IQueryable<TEntity>, IOrderedQueryable<TEntity>> orderBy = null);
+    Task<IEnumerable<TEntity>> Search(Expression<Func<TEntity, bool>> filters, Func<IQueryable<TEntity>, IOrderedQueryable<TEntity>>? orderBy = null);
     Task<IEnumerable<TEntity>> Search(Expression<Func<TEntity, bool>> filters, int? page, int? pagesize);
-    Task<IEnumerable<TEntity>> Search(Expression<Func<TEntity, bool>> filters, int? page, int? pagesize, Func<IQueryable<TEntity>, IOrderedQueryable<TEntity>> orderBy = null);
+    Task<IEnumerable<TEntity>> Search(Expression<Func<TEntity, bool>> filters, int? page, int? pagesize, Func<IQueryable<TEntity>, IOrderedQueryable<TEntity>>? orderBy = null);
     Task<TEntity> GetById(long id);
     int Count(Expression<Func<TEntity, bool>> filters);
     int GetPageSize();

@@ -7,6 +7,13 @@ namespace YoutubeData.Domain.Entities;
 /// </summary>
 public class Channel : Entity
 {
+    public Channel(string name, string description, string url)
+    {
+        Name = name;
+        Description = description;
+        Url = url;
+    }
+
     /// <summary>
     /// Nome do canal
     /// </summary>
@@ -25,5 +32,5 @@ public class Channel : Entity
     /// <summary>
     /// Lista de vídeos do canal
     /// </summary>
-    public virtual IEnumerable<Video> Videos { get; set; }
+    public virtual IEnumerable<Video>? Videos { get; set; }
 }

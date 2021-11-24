@@ -1,8 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "lNKkfba8cR4TyTH3TgowqaLpSsqoAwFV0NO8W5MBXt6+pYqErcPwUxMuepYtakpFdzKauCptfKvq8GmIOrPV3Q==",
+  "dgSpecHash": "F1bjfwCUPzyPvuvDIWxzVi23QeiDRVMxrkhK7ry9RRl5/j7gLcMgSH0tPTBfhmYYioSXz7L/oCGCkV+TYCSQfA==",
   "success": true,
   "projectFilePath": "D:\\lfurtado\\LAFS\\p\\_Lab\\YoutubeDataRobot\\YoutubeData.Domain\\YoutubeData.Domain.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\lfurtado\\.nuget\\packages\\google.apis\\1.55.0\\google.apis.1.55.0.nupkg.sha512",
+    "C:\\Users\\lfurtado\\.nuget\\packages\\google.apis.auth\\1.55.0\\google.apis.auth.1.55.0.nupkg.sha512",
+    "C:\\Users\\lfurtado\\.nuget\\packages\\google.apis.core\\1.55.0\\google.apis.core.1.55.0.nupkg.sha512",
+    "C:\\Users\\lfurtado\\.nuget\\packages\\google.apis.youtube.v3\\1.55.0.2449\\google.apis.youtube.v3.1.55.0.2449.nupkg.sha512",
+    "C:\\Users\\lfurtado\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\lfurtado\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\lfurtado\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\lfurtado\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -36,7 +36,7 @@ public class DomainService<TEntity> : IDomainService<TEntity> where TEntity : En
         return await Task.FromResult(_repository.Search(filters));
     }
 
-    public async Task<IEnumerable<TEntity>> Search(Expression<Func<TEntity, bool>> filters, Func<IQueryable<TEntity>, IOrderedQueryable<TEntity>> orderBy = null)
+    public async Task<IEnumerable<TEntity>> Search(Expression<Func<TEntity, bool>> filters, Func<IQueryable<TEntity>, IOrderedQueryable<TEntity>>? orderBy = null)
     {
         return await Task.FromResult(_repository.Search(filters, orderBy));
     }
@@ -46,7 +46,7 @@ public class DomainService<TEntity> : IDomainService<TEntity> where TEntity : En
         return await Task.FromResult(_repository.Search(filters, page, pagesize));
     }
 
-    public async Task<IEnumerable<TEntity>> Search(Expression<Func<TEntity, bool>> filters, int? page, int? pagesize, Func<IQueryable<TEntity>, IOrderedQueryable<TEntity>> orderBy = null)
+    public async Task<IEnumerable<TEntity>> Search(Expression<Func<TEntity, bool>> filters, int? page, int? pagesize, Func<IQueryable<TEntity>, IOrderedQueryable<TEntity>>? orderBy = null)
     {
         return await Task.FromResult(_repository.Search(filters, page, pagesize, orderBy));
     }
