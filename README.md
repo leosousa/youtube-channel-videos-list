@@ -17,4 +17,4 @@ Para criar o banco da API, siga os seguintes passos:
 - No seu terminal, rode o comando `update-database`
 
 ## Servidor de desenvolvimento
-Para rodar local, rode o comando `dotnet run` no seu terminal ou clique em "Run" no Visual Studio. Navegue para a url `http://localhost:3000/`.
+Para rodar local, rode o comando `dotnet run` no seu terminal ou clique em "Run" no Visual Studio. Uma tela do prompt deverá ser iniciada logando o que está sendo executado.
