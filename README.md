@@ -3,6 +3,7 @@ Robô em Console Application que lê canais do Youtube e baixa os links dos víd
 
 ## Tecnologias utilizadas
 - .Net Core 6.0
+- C# 10
 - MySql
 - Repository Pattern
 
