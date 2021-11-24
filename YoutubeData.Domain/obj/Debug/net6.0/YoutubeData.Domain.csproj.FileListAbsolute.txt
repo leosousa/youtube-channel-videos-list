@@ -1,0 +1,5 @@
+D:\lfurtado\LAFS\p\_Lab\YoutubeDataRobot\YoutubeData.Domain\obj\Debug\net6.0\YoutubeData.Domain.csproj.AssemblyReference.cache
+D:\lfurtado\LAFS\p\_Lab\YoutubeDataRobot\YoutubeData.Domain\obj\Debug\net6.0\YoutubeData.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\lfurtado\LAFS\p\_Lab\YoutubeDataRobot\YoutubeData.Domain\obj\Debug\net6.0\YoutubeData.Domain.AssemblyInfoInputs.cache
+D:\lfurtado\LAFS\p\_Lab\YoutubeDataRobot\YoutubeData.Domain\obj\Debug\net6.0\YoutubeData.Domain.AssemblyInfo.cs
+D:\lfurtado\LAFS\p\_Lab\YoutubeDataRobot\YoutubeData.Domain\obj\Debug\net6.0\YoutubeData.Domain.csproj.CoreCompileInputs.cache

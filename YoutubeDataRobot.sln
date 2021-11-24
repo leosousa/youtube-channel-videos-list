@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Console", "0 - Console", "{32FD170F-A5A1-40CC-9204-64553AFA7737}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Application", "1 - Application", "{7A81438B-35BB-4AC1-B96E-BA113B68B0DA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Domain", "2 - Domain", "{C6382A0B-5218-4CF7-B467-2DDB4C82CCA1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Infra", "3 - Infra", "{202F84D3-2CA1-4462-89C8-D97B0ED87607}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YoutubeData.Domain", "YoutubeData.Domain\YoutubeData.Domain.csproj", "{CB033DD7-AE15-4234-AEE5-88F5079A7F9F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CB033DD7-AE15-4234-AEE5-88F5079A7F9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB033DD7-AE15-4234-AEE5-88F5079A7F9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB033DD7-AE15-4234-AEE5-88F5079A7F9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB033DD7-AE15-4234-AEE5-88F5079A7F9F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CB033DD7-AE15-4234-AEE5-88F5079A7F9F} = {C6382A0B-5218-4CF7-B467-2DDB4C82CCA1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6A01F10B-A0DF-4435-B280-3554D8A34365}
+	EndGlobalSection
+EndGlobal
