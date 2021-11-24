@@ -5,7 +5,7 @@ namespace YoutubeData.Application.Services;
 
 public class ChannelVideoSearchAppService : IChannelVideoSearchAppService
 {
-    protected static Mutex mutex = null;
+    protected static Mutex? mutex = null;
 
     private readonly IYoutubeVideoSearchService _videoSearchService;
 

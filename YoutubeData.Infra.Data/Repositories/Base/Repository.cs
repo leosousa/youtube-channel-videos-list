@@ -17,9 +17,13 @@ public class Repository<TDatabaseContext, TEntity> : IRepository<TEntity>
         _database = database;
     }
 
-    public int Count(Expression<Func<TEntity, bool>>? filter = null)
+    public int Count(Expression<Func<TEntity, bool>>? filters = null)
     {
-        throw new NotImplementedException();
+        if (filters == null)
+        {
+            return this.List().Count();
+        }
+        return this.Query(filters).ToList().Count;
     }
 
     public void Create(TEntity entity)
@@ -30,7 +34,8 @@ public class Repository<TDatabaseContext, TEntity> : IRepository<TEntity>
 
     public virtual void CreateAll(IEnumerable<TEntity> entities)
     {
-        throw new NotImplementedException();
+        _database.Set<TEntity>().AddRange(entities);
+        _database.SaveChanges();
     }
 
     public virtual TEntity? Get(Expression<Func<TEntity, bool>> filter)

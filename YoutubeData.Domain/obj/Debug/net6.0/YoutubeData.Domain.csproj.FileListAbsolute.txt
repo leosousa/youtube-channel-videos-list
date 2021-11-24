@@ -2,6 +2,7 @@ D:\lfurtado\LAFS\p\_Lab\YoutubeDataRobot\YoutubeData.Domain\bin\Debug\net6.0\You
 D:\lfurtado\LAFS\p\_Lab\YoutubeDataRobot\YoutubeData.Domain\bin\Debug\net6.0\YoutubeData.Domain.dll
 D:\lfurtado\LAFS\p\_Lab\YoutubeDataRobot\YoutubeData.Domain\bin\Debug\net6.0\ref\YoutubeData.Domain.dll
 D:\lfurtado\LAFS\p\_Lab\YoutubeDataRobot\YoutubeData.Domain\bin\Debug\net6.0\YoutubeData.Domain.pdb
+D:\lfurtado\LAFS\p\_Lab\YoutubeDataRobot\YoutubeData.Domain\obj\Debug\net6.0\YoutubeData.Domain.csproj.AssemblyReference.cache
 D:\lfurtado\LAFS\p\_Lab\YoutubeDataRobot\YoutubeData.Domain\obj\Debug\net6.0\YoutubeData.Domain.GeneratedMSBuildEditorConfig.editorconfig
 D:\lfurtado\LAFS\p\_Lab\YoutubeDataRobot\YoutubeData.Domain\obj\Debug\net6.0\YoutubeData.Domain.AssemblyInfoInputs.cache
 D:\lfurtado\LAFS\p\_Lab\YoutubeDataRobot\YoutubeData.Domain\obj\Debug\net6.0\YoutubeData.Domain.AssemblyInfo.cs

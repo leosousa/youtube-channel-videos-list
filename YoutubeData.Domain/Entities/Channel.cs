@@ -7,6 +7,8 @@ namespace YoutubeData.Domain.Entities;
 /// </summary>
 public class Channel : Entity
 {
+    protected Channel() { /* Used by EF */ }
+
     public Channel(string name, string description, string url)
     {
         Name = name;

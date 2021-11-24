@@ -7,17 +7,17 @@ namespace YoutubeData.Infra.Data.Contexts;
 
 public class YoutubeDataContext : DbContext, IDatabaseContext
 {
+    // Para rodar a migration de criação do banco, descomente
+    //public YoutubeDataContext()
+    //{
+
+    //}
+
     // Para rodar a migration de criação do banco, comente
     public YoutubeDataContext(DbContextOptions<YoutubeDataContext> options)
         : base(options)
     {
     }
-
-    //// Para rodar a migration de criação do banco, descomente
-    //public YoutubeDataContext()
-    //{
-
-    //}
 
     public DbSet<Channel>? Channels { get; set; }
     public DbSet<Video>? Videos { get; set; }
@@ -31,7 +31,12 @@ public class YoutubeDataContext : DbContext, IDatabaseContext
 
         if (!optionsBuilder.IsConfigured)
         {
-            optionsBuilder.UseMySQL(configuration.GetConnectionString("DefaultConnection"));
+            var stringConnection = configuration.GetConnectionString("DefaultConnection");
+            var mySqlMajorVersion = Convert.ToInt32(configuration["MySql:Major"]);
+            var mySqlMinorVersion = Convert.ToInt32(configuration["MySql:Minor"]);
+            var mySqlBuildVersion = Convert.ToInt32(configuration["MySql:Build"]);
+            var serverVersion = new MySqlServerVersion(new Version(mySqlMajorVersion, mySqlMinorVersion, mySqlBuildVersion));
+            optionsBuilder.UseMySql(stringConnection, serverVersion);
         }
     }
 

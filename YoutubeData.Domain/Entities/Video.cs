@@ -4,6 +4,8 @@ namespace YoutubeData.Domain.Entities;
 
 public class Video : Entity
 {
+    protected Video() { /* Used by EF */ }
+
     public Video(string title, string description, string urlVideo, string urlThumbnail, long idChannel, Channel channel)
     {
         Title = title;
